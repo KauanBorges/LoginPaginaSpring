@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One</title>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h3>Kauan Nogueira Borges</h3>
+      <img src="IMG/Eu.jpg" width="300px" height="500px" />
+      <br />
+      <a href="/Two">Next</a>
+      <form method="post" th:action="@{/logout}">
+        <button type="submit" value="Sair">
+          Sair
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
